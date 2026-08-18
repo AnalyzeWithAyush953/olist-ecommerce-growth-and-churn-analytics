@@ -16,8 +16,8 @@ olist-ecommerce-growth-and-churn-analytics/
 │
 ├── sql/                                         # All SQL scripts
 │   ├── 01_schema_setup.sql
-│   ├── 02_rfm_customer_segmentation.sql
-│   └── 03_delivery_and_churn_analysis.sql
+│   ├── 02_data_cleaning_and_profiling.sql
+│   └── 03_rfm_customer_segmentation.sql
 │
 ├── python/                                      # Python ETL & NLP sentiment scripts
 │   ├── load_data.py

@@ -1,6 +1,6 @@
 /* ==============================================================================
    PROJECT: Olist E-Commerce Growth & Churn Analytics
-   SCRIPT: 02_rfm_customer_segmentation.sql
+   SCRIPT: 03_rfm_customer_segmentation.sql
    DESCRIPTION: RFM customer segmentation using CTEs and NTILE(4) quartiles.
    ============================================================================== */
 
