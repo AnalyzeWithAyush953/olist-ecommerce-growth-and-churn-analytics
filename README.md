@@ -1,12 +1,8 @@
-#  Olist E-Commerce: Growth, Churn & Customer Lifetime Analytics
-
+Olist E-Commerce: Growth, Churn & Customer Lifetime Analytics
 An end-to-end data analytics engineering pipeline analyzing 100,000+ real Brazilian e-commerce orders to uncover customer churn drivers, segment purchasing behaviors (RFM), and evaluate customer satisfaction via NLP sentiment intelligence.
 
----
-
-##  Project Architecture
-
-```text
+ roject Architecture
+Plaintext
 olist-ecommerce-growth-and-churn-analytics/
 │
 ├── data/
@@ -31,7 +27,7 @@ olist-ecommerce-growth-and-churn-analytics/
 │
 └── README.md                     # Executive project summary & business outcomes
 
-## Tech Stack & Skills
+Tech Stack & Skills
 Database & Querying: MySQL Workbench (DDL Schema, Relational Joins, CTEs, Window Functions NTILE)
 
 Data Ingestion & AI/NLP: Python (pandas, SQLAlchemy, pymysql, NLTK/VADER)
@@ -40,7 +36,7 @@ Business Intelligence: Power BI (Star Schema Modeling, DAX Measures, Cohort Rete
 
 Version Control & Collaboration: Git, GitHub, VS Code
 
-## Analytics Highlights & Workflow
+Analytics Highlights & Workflow
 Automated Batch Ingestion: Built a Python ETL loader batch-inserting ~443,000 records across 6 relational tables into MySQL in seconds.
 
 RFM Customer Segmentation: Analyzed 90k+ unique consumers into Champions, Loyal Customers, Recent Buyers, and At-Risk Churn tiers using SQL quartile window functions.
@@ -49,7 +45,8 @@ AI Sentiment Intelligence: Applied NLP sentiment analysis on Portuguese review f
 
 Executive Dashboards: Designed interactive Power BI reports tracking Revenue KPIs, Customer Retention, and Delivery Risk Matrix.
 
+Click the green Commit changes... button in the top right corner.
 
+Click the green Commit changes button inside the popup modal.
 
-
-
+When you view the file preview or repository root, the headers, bold labels, and bullet points will render naturally as standard page text, and only the directory box will display a code container.
