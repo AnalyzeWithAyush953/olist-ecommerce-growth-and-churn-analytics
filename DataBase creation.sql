@@ -84,4 +84,24 @@ describe olist_order_reviews;
 describe olist_order_items;
 describe product_category_name_translation;
 
+-- ------------------------------------------------------------------------------
+-- STEP 3: DATA INGESTION HEALTH CHECKS & VALIDATION
+-- ------------------------------------------------------------------------------
+USE olist_analytics_db;
+
+-- Ingestion Verification across all tables
+SELECT 'olist_customers' AS table_name, COUNT(*) AS total_rows FROM olist_customers
+UNION ALL
+SELECT 'olist_orders', COUNT(*) FROM olist_orders
+UNION ALL
+SELECT 'olist_order_items', COUNT(*) FROM olist_order_items
+UNION ALL
+SELECT 'olist_products', COUNT(*) FROM olist_products
+UNION ALL
+SELECT 'olist_order_reviews', COUNT(*) FROM olist_order_reviews
+UNION ALL
+SELECT 'product_category_name_translation', COUNT(*) FROM product_category_name_translation;
+
+
+
 
