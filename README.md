@@ -21,9 +21,9 @@ Welcome to my end-to-end e-commerce data analytics portfolio project. This repos
   * [`02_data_cleaning_and_profiling.sql`](./sql/02_data_cleaning_and_profiling.sql): Missing value audit, timestamp imputation via `COALESCE`, and delivery performance classification.
   * [`03_rfm_customer_segmentation.sql`](./sql/03_rfm_customer_segmentation.sql): Customer RFM scoring and statistical quartile ranking using `NTILE(4)`.
 
-* 📁 **[python/](./load_data.py)**
-  * [`load_data.py`](./load_data.py): Automated batch ETL pipeline inserting 443k+ records into MySQL in seconds.
-  * `nlp_sentiment_analysis.py`: Natural language sentiment scoring on Portuguese customer review feedback.
+* 📁 **[python/](./python/)**
+  * [`load_data.py`](./python/load_data.py): Automated batch ETL pipeline inserting 443k+ records into MySQL in seconds.
+  * [`nlp_sentiment_analysis.py`](./python/nlp_sentiment_analysis.py): Natural language sentiment scoring on Portuguese customer review feedback using NLTK VADER.
 
 * 📁 **power_bi/**
   * `olist_customer_growth_and_churn_dashboard.pbix`: Interactive multi-page executive BI report.
