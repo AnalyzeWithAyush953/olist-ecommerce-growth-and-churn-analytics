@@ -40,3 +40,4 @@ Welcome to my end-to-end e-commerce data analytics portfolio project. This repos
 * **RFM Customer Segmentation:** Classified 93,358 unique consumers into *Champions*, *Loyal Customers*, *Recent Buyers*, *Potential Growth*, and *At-Risk Churn* tiers using SQL quartile window functions.
 * **AI Sentiment Intelligence:** Applied NLP sentiment analysis on Portuguese review feedback to isolate logistics bottlenecks and return drivers.
 * **Executive Dashboards:** Designed interactive Power BI reports tracking Revenue KPIs, Customer Retention, and Delivery Risk Matrix.
+
