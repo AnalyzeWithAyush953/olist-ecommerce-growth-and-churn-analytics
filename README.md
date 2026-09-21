@@ -1,5 +1,4 @@
-# Olist E-Commerce: Growth, Churn & Customer Lifetime Analytics
-
+# Olist E-Commerce Logistics and Revenue Intelligence Analytics
 Welcome to my end-to-end e-commerce data analytics portfolio project. This repository contains an enterprise data pipeline analyzing 100,000+ Brazilian retail orders to uncover customer churn drivers, segment purchasing behaviors (RFM), and evaluate customer satisfaction using AI sentiment intelligence.
 
 ---
