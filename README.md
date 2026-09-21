@@ -24,11 +24,16 @@ Welcome to my end-to-end e-commerce data analytics portfolio project. This repos
   * [`load_data.py`](./python/load_data.py): Automated batch ETL pipeline inserting 443k+ records into MySQL in seconds.
   * [`nlp_sentiment_analysis.py`](./python/nlp_sentiment_analysis.py): Natural language sentiment scoring on Portuguese customer review feedback using NLTK VADER.
 
-* 📁 **power_bi/**
-  * `olist_customer_growth_and_churn_dashboard.pbix`: Interactive multi-page executive BI report.
+* 📁 [power_bi/](power_bi/)
+  * [`olist_ecommmerce_logistic_and_revenue_intellignece`](power_bi/olist_ecommmerce_logistic_and_revenue_intellignece.pbix) : Interactive multi-page executive BI report featuring dynamic slicers, freight burden matrices, and SLA delivery tracking.
 
 * 📁 **[docs/](./docs/)**
   * [`project_architecture.md`](./docs/project_architecture.md): System design blueprints and data dictionary.
+ 
+  ### Executive Dashboard Overview
+![Olist Logistics and Revenue Intelligence Dashboard](docs/Dahboard%20overview.png)
+
+![Filtered View](docs/Filtered%20Overview.png)
 
 ---
 
